@@ -20,7 +20,7 @@ const checkUsernameAvaibility = username => {
   return new Promise(resolve => {
     req.get('https://api.mojang.com/users/profiles/minecraft/' + username, (_, res) => {
       if (res.statusCode === 204) resolve(true);
-      resolve(false);
+      else resolve(false);
     });
   });
 };
