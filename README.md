@@ -3,6 +3,7 @@
 
 ## Usage
 
+Make sure you have Node.js & Yarn installed
 ```bash
 $ yarn add
 ```
